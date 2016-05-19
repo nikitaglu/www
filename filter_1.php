@@ -1,7 +1,7 @@
 <?php 
 $WshShell = new COM("WScript.Shell"); 
 $oExec = $WshShell->Run("Z:/home/Project/www/filters/ChB/ConsoleApplication5.exe", 7, false); 
-sleep (1);
+sleep (2);
 print "Your photo has been edited!";
 $dir = "images/";
     $files = scandir($dir);
