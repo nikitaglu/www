@@ -1,6 +1,7 @@
 <?php 
 $WshShell = new COM("WScript.Shell"); 
-$oExec = $WshShell->Run("C:\Users\Нарек\AppData\Roaming\uTorrent\uTorrent.exe", 0, false); 
+$oExec = $WshShell->Run("Z:/home/Project/www/filters/ChB/ConsoleApplication5.exe", 7, false); 
+sleep (2);
 print "Your photo has been edited!";
 $dir = "images/";
     $files = scandir($dir);
@@ -35,5 +36,5 @@ $dir = "images/";
 			
         }
     }
-	}
-	?> 
+}
+?> 
